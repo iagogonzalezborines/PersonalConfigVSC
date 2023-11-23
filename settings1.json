@@ -1,0 +1,17 @@
+{
+  "json.schemas": [
+
+  ],
+  "workbench.colorCustomizations": {
+    "[Monokai Night]": {
+      "activityBar.foreground": "#00ff95fd",
+      "tab.activeBorderTop": "#00ff95fd",
+      "symbolIcon.variableForeground": "#00ff95fd"
+    }
+  },
+  "editor.tokenColorCustomizations": {
+    "variables": "#bcfce1fd",
+    "functions": "#eea9d7"
+}
+
+}
