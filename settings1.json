@@ -1,17 +1,56 @@
 {
-  "json.schemas": [
-
-  ],
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "editor.stickyScroll.enabled": true,
+  "redhat.telemetry.enabled": true,
+  "window.commandCenter": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "files.autoSave": "afterDelay",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.iconTheme": "icons",
+  "workbench.sideBar.location": "right",
+  "bitoAI.codeCompletion.setAutoCompletionTriggerLogic": 250,
+  "workbench.colorTheme": "Monokai Night",
+  "editor.fontSize": 17,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "xml.colors": [],
+  "json.schemas": [],
   "workbench.colorCustomizations": {
     "[Monokai Night]": {
       "activityBar.foreground": "#00ff95fd",
       "tab.activeBorderTop": "#00ff95fd",
-      "symbolIcon.variableForeground": "#00ff95fd"
+      "symbolIcon.variableForeground": "#00ff95fd",
+      "icon.foreground": "#00ff95fd",
+      "tab.activeBackground": "#00ff9509",
+      "tab.border": "#ffffff00",
+      "editor.lineHighlightBorder": "#00ff9509"
     }
   },
   "editor.tokenColorCustomizations": {
-    "variables": "#bcfce1fd",
-    "functions": "#eea9d7"
+    "textMateRules": [
+      {
+        "scope": [
+          "string",
+          "string.quoted"
+        ],
+        "settings": {
+          "foreground": "#3af5cd"
+        }
+      }
+    ],
+    "functions": "#f0b467",
+    "variables": "#72fab6"
+  }
 }
 
-}
+
+    
