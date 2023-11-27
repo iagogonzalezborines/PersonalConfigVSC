@@ -25,18 +25,39 @@
   "xml.colors": [],
   "json.schemas": [],
   "workbench.colorCustomizations": {
+  
+    
+
+
+
 
     "[Monokai Night]": {
       "activityBar.foreground": "#00ff95fd",
       "tab.activeBorderTop": "#00ff95fd",
       "symbolIcon.variableForeground": "#00ff95fd",
       "icon.foreground": "#00ff95fd",
-      "tab.activeBackground": "#00ff9509",
-      "tab.border": "#ffffff00",
+      "activityBar.activeBackground": "#000000fd",
+      "tab.activeBackground": "#113f2c09",
+      "tab.border": "#01ffaa00",
       "editor.lineHighlightBorder": "#00ff9509",
       "gitDecoration.stageModifiedResourceForeground": "#bd1818",
       "gitDecoration.addedResourceForeground": "#00ffb3",
-      "gitDecoration.untrackedResourceForeground": "#ff7b00"
+      "gitDecoration.untrackedResourceForeground": "#ff8800",
+      "breadcrumb.background": "#00ffaa0e",
+      "commandCenter.background": "#00ffaa0e",
+      "terminalCommandDecoration.defaultBackground": "#085a38fd",
+      "terminalCommandDecoration.successBackground": "#00ff95fd",
+      "terminalCommandDecoration.errorBackground": "#bd1818",
+      "terminal.border": "#00ff95fd",
+      "terminal.foreground": "#68f3b9",
+      "terminal.tab.activeBorder": "#68f3b9",
+      "terminal.selectionBackground": "#00ffc8",
+      "terminal.selectionForeground": "#000000",
+      "button.background": "#00ff95fd",
+      "button.foreground": "#000000",
+      "button.hoverBackground": "#1dbd7a",
+      "activityBarBadge.background": "#00ff95fd",
+      "activityBarBadge.foreground": "#000000"
     }
   },
   "editor.tokenColorCustomizations": {
@@ -47,15 +68,16 @@
           "string.quoted"
         ],
         "settings": {
-          "foreground": "#3af5cd"
+          "foreground": "#3ad9f5"
         }
       }
     ],
     "functions": "#f0b467",
-    "variables": "#72fab6"
+    "variables": "#72fab6",
+    "keywords": "#ff0080",
+    "comments": "#5f5f5f",
+    "types": "#8be8f7"
   },
-  "open-php-html-js-in-browser.selectedBrowser": "Firefox"
+  "open-php-html-js-in-browser.selectedBrowser": "Firefox",
+  "git.autofetch": true
 }
-
-
-    
