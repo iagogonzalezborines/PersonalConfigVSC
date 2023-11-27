@@ -25,6 +25,7 @@
   "xml.colors": [],
   "json.schemas": [],
   "workbench.colorCustomizations": {
+
     "[Monokai Night]": {
       "activityBar.foreground": "#00ff95fd",
       "tab.activeBorderTop": "#00ff95fd",
@@ -32,7 +33,10 @@
       "icon.foreground": "#00ff95fd",
       "tab.activeBackground": "#00ff9509",
       "tab.border": "#ffffff00",
-      "editor.lineHighlightBorder": "#00ff9509"
+      "editor.lineHighlightBorder": "#00ff9509",
+      "gitDecoration.stageModifiedResourceForeground": "#bd1818",
+      "gitDecoration.addedResourceForeground": "#00ffb3",
+      "gitDecoration.untrackedResourceForeground": "#ff7b00"
     }
   },
   "editor.tokenColorCustomizations": {
@@ -49,7 +53,8 @@
     ],
     "functions": "#f0b467",
     "variables": "#72fab6"
-  }
+  },
+  "open-php-html-js-in-browser.selectedBrowser": "Firefox"
 }
 
 
