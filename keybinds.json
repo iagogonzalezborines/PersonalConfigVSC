@@ -29,5 +29,13 @@
     {
         "key": "ctrl+left",
         "command": "workbench.action.focusActiveEditorGroup"
+    },
+    {
+        "key": "alt+right",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "alt+left",
+        "command": "workbench.action.previousEditor"
     }
 ]
